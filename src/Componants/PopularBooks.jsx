@@ -1,9 +1,7 @@
-import Slider from "./Slider";
-export default function Home()
+export default function PopularBooks()
 {
     return <>
-     <Slider/>
-     <section className="blog_section layout_padding">
+      <section className="blog_section layout_padding">
     <div className="container">
       <div className="heading_container">
         <h2>
@@ -68,5 +66,6 @@ export default function Home()
       </div>
     </div>
   </section>
+
     </>
 }
