@@ -2,13 +2,13 @@ export default function Register()
 {
     return <>
     
-    <section className="contact_section  long_section" style={{ background: "linear-gradient(135deg, #f3e7e9, #e3eeff)" }} >
+    <section className="contact_section  long_section" style={{background: "linear-gradient(135deg, #f3e7e9, #e3eeff)" }} >
     <div className="container">
       <div className="row">
-        <div className="col-md-12 col-lg-12">
+        <div className="col-md-6 col-lg-6">
           <div className="form_container">
             <div className="heading_container">
-              <h2> Login Now </h2>
+              <h2> Register </h2>
             </div>
             <form >
              
@@ -17,7 +17,7 @@ export default function Register()
                 <input type="password"  placeholder="Password"/>
               
               <div className="btn_box">
-                <button> Login </button>
+                <button> Register </button>
               </div>
             </form>
           </div>
