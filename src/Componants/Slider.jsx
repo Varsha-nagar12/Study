@@ -1,7 +1,7 @@
 export default function Slider()
 {
-    return <> <div className="hero_area">
-   
+    return <> 
+    <div className="hero_area">
     <section className="slider_section long_section" style={{ background: "linear-gradient(135deg, #f3e7e9, #e3eeff)" }}>
       <div id="customCarousel" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
@@ -10,13 +10,8 @@ export default function Slider()
               <div className="row">
                 <div className="col-md-5">
                   <div className="detail-box">
-                    <h1>
-                    Open a Book<br/>
-                      Open Your Mind
-
-                    </h1>
-                    <p>
-                    Step into a world of infinite possibilities with every chapter. 
+                    <h1> Open a Book<br/> Open Your Mind </h1>
+                    <p> Step into a world of infinite possibilities with every chapter. 
                     </p>
                     <div className="btn-box">
                       <a href="" className="btn1">

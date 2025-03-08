@@ -1,7 +1,7 @@
 export default function About()
 {
     return <>
-       <section className="about_section layout_padding long_section" style={{ background: "linear-gradient(135deg, #f3e7e9, #e3eeff)" }} >
+   <section className="about_section layout_padding long_section" style={{ background: "linear-gradient(135deg, #f3e7e9, #e3eeff)" }} >
     <div className="container">
       <div className="row">
         <div className="col-md-5">
@@ -12,16 +12,25 @@ export default function About()
         <div className="col-md-7">
           <div className="detail-box">
             <div className="heading_container">
-              <h2>
-                About Us
-              </h2>
+              <h2>About Us</h2>
             </div>
             <p>
-            Welcome to<span> <b> Ibook Store - </b></span>  your ultimate destination for literature lovers. 
+            Welcome to<span> <b> Shivay Book Store - </b></span> 
+            your ultimate destination for literature lovers. 
             Whether you're a passionate reader , an aspiring writer , or just exploring , 
             our carefully curated collection has something for everyone . Dive into a universe of imagination ,
-             knowledge , and endless possibilities.
+            knowledge , and endless possibilities.
             </p>
+            <hr/>
+
+          <p><span> <b> Shivay Book Store.com </b></span> is India's leading online platform which works towards making education available to all, 
+              across the geographical and social boundaries.
+              We make this possible by providing books to those who have the desire to read & learn.
+              With the help of our team of highly energetic logistic partners, 
+              today Shivay books has its reach in multiple Pincode across the country.
+              We reach out for books from B3books Store and also for delivering them at reader's doorstep.
+            </p>
+            <br/><br/>
             <a href="">
               Read More
             </a>
